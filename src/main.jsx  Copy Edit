@@ -1,0 +1,10 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import GoldDashboard from "./GoldDashboard.jsx";
+import "./index.css"; // Optional if using Tailwind or custom CSS
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <GoldDashboard />
+  </React.StrictMode>
+);
